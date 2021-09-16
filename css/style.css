@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+header{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+#logo-image{
+    vertical-align: middle;
+}
+
+#logo-name{
+    font-size: 35px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.container{
+    background-color: white;
+    width: 60%;
+    margin-left: 180px;
+    border-radius: 7px;
+    padding-left: 50px;
+    padding-top: 15px;
+    
+}
+
+.button{
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+.button.one{
+    color: white;
+    background-color: #47adf1;
+    border-color: #47adf1 ;
+}
+
+.button.two{
+    color: #d4d8dc;
+    background-color: white;
+    border-color: #d4d8dc;
+}
+
+.list{
+    padding: 30px 0;
+    list-style: none;
+}
+
+.list-title{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.list-object{
+    font-size: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+/* aggiunta dei simboli prima degli li */
+
+.list-title::before{
+    content: '\23F7';
+}
+
+.list-object::before{
+    content: '\2705';
+}
+
+.list-object.x::before{
+    color: red;
+    content: '\0058';
+}
+
+.ticket{
+    color: white;
+    font-size: 10px;    
+    border-radius: 12px;
+    padding: 5px 10px;
+
+}
+
+/* lista nomi dei ticket */
+
+.ticket.Editorial::after{
+    content: 'Editorial';
+}
+
+.ticket.Q1Goals::after{
+    content: 'Q1 Goals';
+}
+
+.ticket.Recruiting::after{
+    content: 'Recruiting';
+}
+
+.ticket.Mobile::after{
+    content: 'Moblile';
+}
+
+.ticket.Website::after{
+    content: 'Website';
+}
+
+.ticket.Sales::after{
+    content: 'Sales';
+}
+
+/* lista colori dei ticket */
+
+.ticket.Editorial{
+    background-color: #45abea;
+}
+
+.ticket.Q1Goals{
+    background-color: #9c72e4;
+}
+
+.ticket.Recruiting{
+    background-color: #64c0a9;
+}
+
+.ticket.Mobile{
+    background-color: #f29e33;
+}
+
+.ticket.Website{
+    background-color: #d863a1;
+}
+
+.ticket.Sales{
+    background-color: #b0c926;
+}
